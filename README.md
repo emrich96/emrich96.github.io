@@ -1,2 +1,2 @@
 # emrich96.github.io
-WEB200
+http://emrich96.github.io
