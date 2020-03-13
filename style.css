@@ -1,3 +1,7 @@
+.container {
+    height: 100vh;
+}
+
 #landing { 
     height: 90vh;
     background-color: #faf9f9;
@@ -9,10 +13,6 @@
 
 #gallery {
     background-color: #89b0ae;
-}
-
-.container {
-    height: 100vh;
 }
 
 div.justify-content-around {
