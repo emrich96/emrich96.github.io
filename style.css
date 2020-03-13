@@ -1,4 +1,9 @@
-.container {
+div.justify-content-around {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+div.content {
     height: 100vh;
 }
 
@@ -13,9 +18,9 @@
 
 #gallery {
     background-color: #89b0ae;
+    overflow: hidden;
 }
 
-div.justify-content-around {
-    margin-top: 80px;
-    margin-bottom: 40px;
+h2.header {
+    margin-top: 40px;
 }
