@@ -17,117 +17,157 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     </head>
-    <body>
-        <div>
-            <div id="landing" class="row align-items-center">
-                <div class="col-12 text-center">
-                    <h1>hello.</h1>
-                    <div class="p-2">
-                        my name is emily richter, and i can code stuff.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <body data-spy="scroll" data-target="#navbar" data-offset="50">
+        
+        <nav id="navbar" class="navbar fixed-top navbar-custom bg-dark">
+            <ul class="nav nav-pills ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">my work</a>
+                </li>
+            </ul>
+        </nav>
 
-        <div id="about">
-            <div class="container content">
-                <div class="row h-100 align-items-center">
-                    <div class="col-6">
-                        <h2>this is me.</h2>
-                        <p>i'll put some stuff here</p>
-                    </div>
-    
-                    <div class="col-6">
-                        <img src="images/self.JPG" class="img-fluid img-thumbnail"> 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="gallery">
+        
             <div class="container">
-                <h2 class="header">my past work.</h2>
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <a href="https://emrich96.github.io/bioSite/" target="_blank"><img src="images/bioSite_screenshot.PNG" class="img-fluid img-thumbnail"></a>
-                    </div>
-                    <div class="col-4">
-                        <div class="card h-100">
-                            <!--<a href="https://emrich96.github.io/bioSite/" target="_blank"><img src="images/bioSite_screenshot.PNG" class="card-img-top"></a>-->
-                            <a href="https://emrich96.github.io/bioSite/" target="_blank"><h4 class="card-header">bioSite</h4></a>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">HTML/CSS</li>
-                                <li class="list-group-item">Beginner's Project</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>    
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <div class="card h-100">
-                            <!--<a href="links/bioSite_prototype.pdf" target="_blank"><img src="images/bioSite_prototype_screenshot.PNG" class="card-img-top"></a>-->
-                            <a href="links/bioSite_prototype.pdf" target="_blank"><h4 class="card-header">bioSite Prototype</h4></a>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Paper/PDF Prototype</li>
-                                <li class="list-group-item">Planning & Design</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <a href="links/bioSite_prototype.pdf" target="_blank"><img src="images/bioSite_prototype_screenshot.PNG" class="img-fluid img-thumbnail"></a> 
-                    </div>
-                </div>
-
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <a href="https://github.com/emrich96/web-231" target="_blank"><img src="images/web-231_screenshot.PNG" class="img-fluid img-thumbnail"></a>
-                    </div>
-                    <div class="col-4">
-                        <div class="card h-100">
-                            <!--<a href="https://github.com/emrich96/web-231" target="_blank"><img src="images/web-231_screenshot.PNG" class="card-img-top"></a>-->
-                            <a href="https://github.com/emrich96/web-231" target="_blank"><h4 class="card-header">WEB-230/231 Repository</h4></a>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">HTML/CSS</li>
-                                <li class="list-group-item">JavaScript</li>
-                                <li class="list-group-item">Git/CLI</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <div class="card h-100">
-                            <!--<a href="links/portfolio_prototype.png" target="_blank"><img src="images/portfolio_prototype_screenshot.jpg" class="card-img-top"></a>-->
-                            <a href="links/portfolio_prototype.png" target="_blank"><h4 class="card-header">Portfolio Prototype</h4></a>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Paper/Sketch Prototype</li>
-                                <li class="list-group-item">Planning & Design</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <a href="links/portfolio_prototype.png" target="_blank"><img src="images/portfolio_prototype.jfif" class="img-fluid img-thumbnail"></a>
-                    </div>
-                </div>
-
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <a href="https://github.com/emrich96/web-330" target="_blank"><img src="images/web-330_screenshot.PNG" class="img-fluid img-thumbnail"></a>  
-                    </div>
-                    <div class="col-4">
-                        <div class="card h-100">
-                            <!--<a href="https://github.com/emrich96/web-330" target="_blank"><img src="images/web-330_screenshot.PNG" class="card-img-top"></a>-->
-                            <a href="https://github.com/emrich96/web-330" target="_blank"><h4 class="card-header">WEB-330 Repository</h4></a>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">HTML/CSS</li>
-                                <li class="list-group-item">JavaScript</li>
-                                <li class="list-group-item">Git/CLI</li>
-                            </ul>
+                <div id="landing" class="row align-items-center">
+                    <div class="col-12 text-center">
+                        <h1>hello.</h1>
+                        <div class="p-2">
+                            my name is emily richter, and i can code stuff.
                         </div>
                     </div>
                 </div>
             </div>
-        </section>    
+
+            <div id="about">
+                <div class="container content">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-6">
+                            <h2>this is me.</h2>
+                            <p>A relatively new student at Bellevue University, I've only just begun my journey as a developer. 
+                                However, I've found that web development pushes me to be a more creative and resourceful designer.
+                                I'm meticulous, analytical, big-picture thinking, and looking forward to learning more.
+                                </p>
+                        </div>
+        
+                        <div class="col-6">
+                            <img src="images/self.JPG" class="img-fluid img-thumbnail"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery">
+                <div class="container">
+                    <h2 class="header">my past work.</h2>
+
+                    <div class="row justify-content-around">
+
+                        <div class="col-4"> 
+                            <div class="card">  
+
+                                <a href="https://emrich96.github.io/bioSite/" target="_blank"><img src="images/bioSite_screenshot.PNG" class="card-img-top"></a>
+                                
+                                <div class="card-header">
+                                    <a href="https://emrich96.github.io/bioSite/" target="_blank">bioSite</a>
+                                </div>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">HTML/CSS</li>
+                                    <li class="list-group-item">Beginner's Project</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="col-4"> 
+                            <div class="card"> 
+
+                                <a href="links/bioSite_prototype.pdf" target="_blank"><img src="images/bioSite_prototype_screenshot.PNG" class="card-img-top"></a> 
+                                
+                                <div class="card-header">
+                                    <a href="links/bioSite_prototype.pdf" target="_blank">bioSite Prototype</a>
+                                </div>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Paper/PDF Prototype</li>
+                                    <li class="list-group-item">Planning & Design</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        
+                        <div class="col-4"> 
+                            <div class="card">  
+
+                                <a href="links/portfolio_prototype.png" target="_blank"><img src="images/portfolio_prototype.jfif" class="card-img-top"></a>                            
+                                
+                                <div class="card-header">
+                                    <a href="links/portfolio_prototype.png" target="_blank">Portfolio Prototype</a>
+                                </div>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Paper/PDF Prototype</li>
+                                    <li class="list-group-item">Planning & Design</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row justify-content-around">
+
+                        <div class="col-4"> 
+                            <div class="card">  
+
+                                <a href="https://github.com/emrich96/web-231" target="_blank"><img src="images/web-231_screenshot.PNG" class="card-img-top"></a>
+                                
+                                <div class="card-header">
+                                    <a href="https://github.com/emrich96/web-231" target="_blank">WEB-230/231 Repository</a>
+                                </div>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">HTML/CSS</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Git/CLI</li>
+                                </ul>
+
+                            </div>
+                        </div> 
+
+                        <div class="col-4"> 
+                            <div class="card">  
+
+                                <a href="https://github.com/emrich96/web-330" target="_blank"><img src="images/web-330_screenshot.PNG" class="card-img-top"></a>  
+                                
+                                <div class="card-header">
+                                    <a href="https://github.com/emrich96/web-330" target="_blank">WEB-330 Repository</a>
+                                </div>
+                                
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">HTML/CSS</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Git/CLI</li>
+                                </ul>
+
+                            </div>
+                        </div> 
+
+                    </div>
+
+                </div>
+            </div>
+
+            <footer></footer>
+        
+
+        <script>
+
+
+        </script>
     </body>
 </html>
