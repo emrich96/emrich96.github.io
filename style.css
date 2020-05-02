@@ -12,8 +12,12 @@ div.content {
     height: 100vh;
 }
 
-#landing { 
-    height: 93vh;
+#landing {
+    height: 95vh;
+}
+
+#landing-diagrams {
+    height: 100vh;
 }
 
 #gallery {

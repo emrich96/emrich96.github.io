@@ -22,15 +22,15 @@
         <nav id="navbar" class="navbar fixed-top navbar-custom bg-light">
             <ul class="nav nav-pills ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="/index.html">back</a>
+                  <a class="nav-link" href="../index.html">back</a>
                 </li>
             </ul>
         </nav>
 
-        <div id="landing" class="container">
+        <div id="landing-diagrams" class="container">
             <br /><br /><br />
             <h2 class="text-center">diagram gallery</h2>
-            <br /><br />
+            <br />
 
             <!-- Bootstrap Carousel -->
             <div id="carouselDiagrams" class="carousel slide" data-ride="carousel">
@@ -38,18 +38,25 @@
 
                     <!-- Exercise 1.4 -->
                     <div class="carousel-item active">
-                        <div class="card-group justify-content-center">
-                            <div class="card diagram-card col-4">
-                                <img src="../nosql-data-diagrams/exercise1.4-ORD.PNG" class="card-img-top" alt="Object relational diagram example">
+                        <div class="card-group col-9 mx-auto">
+                            <div class="card">
+                                <div class="card-header">Exercise 1.4</div>
                                 <div class="card-body">
-                                <p class="card-text">Exercise 1.4 ORD</p>
+                                    <p class="card-text">Show the following business class rules in an Object Relational Diagram (ORD) and a NoSQL data structure:</p>
                                 </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">a USER has many ROLES</li>
+                                    <li class="list-group-item">a USER has one BIRTHDATE</li>
+                                    <li class="list-group-item">a USER can have many DEPENDENTS</li>
+                                </ul>
                             </div>
-                            <div class="card diagram-card col-4">
-                                <img src="../nosql-data-diagrams/exercise1.4-NoSQL.PNG" class="card-img-top" alt="NoSQL data structure example">
-                                <div class="card-body">
-                                <p class="card-text">Exercise 1.4 NoSQL</p>
-                                </div>
+
+                            <div class="card text-center">
+                                <a href="../nosql-data-diagrams/exercise1.4-ORD.PNG" target="_blank"><img src="../nosql-data-diagrams/exercise1.4-ORD.PNG" class="img-fluid" alt="Object relational diagram example"></a>
+                                <div class="card-header">Object Relational Diagram</div>
+
+                                <a href="../nosql-data-diagrams/exercise1.4-NoSQL.PNG" target="_blank"><img src="../nosql-data-diagrams/exercise1.4-NoSQL.PNG" class="img-fluid" alt="NoSQL data structure example"></a>
+                                <div class="card-footer">NoSQL data structure</div>
                             </div>
                         </div>
                     </div>
@@ -57,10 +64,10 @@
                     <!-- Next item -->
                     <div class="carousel-item">
                         <div class="card-group justify-content-center">
-                            <div class="card diagram-card col-6 text-center">
+                            <div class="card col-6 text-center">
                                 <div class="card-body">
                                 <h1 class="card-title">more stuff in progress</h1>
-                                <p class="card-text">Come back later to see more projects</p>
+                                <p class="card-text">come back later to see more projects</p>
                                 </div>
                             </div>
                         </div>
@@ -80,15 +87,10 @@
 
               </div>
 
-
         </div>
-            
-
-        <footer></footer>
         
 
         <script>
-
 
         </script>
     </body>
