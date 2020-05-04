@@ -16,8 +16,12 @@ div.content {
     height: 95vh;
 }
 
-#landing-diagrams {
+#landing-diagrams, #landing-presentations {
     height: 100vh;
+}
+
+.videoPresentations {
+    height: 70vh;
 }
 
 #gallery {
